@@ -1,0 +1,7 @@
+in the Linux command line, you can modify your Git configuration by adding a pre-push hook. A pre-push hook is a script that is executed before the push operation occurs, allowing you to perform checks and validations.
+
+Follow these steps to create a pre-push hook that prevents pushing changes to a branch containing ~ in the Linux command line:
+
+Navigate to the Git repository's local directory using the command line.
+Inside the repository, go to the .git directory.
+Open the hooks directory.
